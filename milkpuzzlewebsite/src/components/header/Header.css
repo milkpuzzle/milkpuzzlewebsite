@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Letter Magic";
+    src: url("./Letter Magic.ttf") format("truetype");
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.milkpuzzle-title{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    color:white;
+    -webkit-text-stroke: 1px chocolate;
+    font-family: "Letter Magic";
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.svg{
+    background-color: chocolate;
+    width: 40px;
+    height: 40px;
+    border: 2px solid chocolate;
+    border-radius: 100%;
+}
+
+.hr{
+    background-color: chocolate;
+    color: chocolate;
+    width: 80%;
+    height: 3px;
+    border-color: chocolate;
+    margin: 20px;
+}
